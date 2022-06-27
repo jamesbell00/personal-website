@@ -30,7 +30,7 @@ const projects = [
         date: "Summer 2022",
         team: "Solo",
         report: "textbook-manager-system.pdf",
-        github: "https://github.com/jamesbell00",
+        github: "https://github.com/jamesbell00/personal-website",
         description: `Add website description`,
         stack: `React, HTML, CSS`
     },

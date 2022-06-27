@@ -58,6 +58,12 @@ nav {
     color: white;
 }
 
+.nav--menu > li > a:focus {
+    background-color: #333;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
 
 .home--imgcontainer {
     display: block;
