@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Nav Bar */
+
+nav {
+    background-color: #EEF5F7;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav--title {
+    color: #333;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.nav--menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 40px;
+    color: #333;
+}
+
+.nav--menu > li {
+    padding-left: 60px;
+}
+
+.nav--menu > li > a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border: 3px solid transparent;
+}
+
+.nav--menu > li > a:hover {
+    border-bottom: 2px solid #333;
+    border-radius: 2px;
+    text-decoration: none; 
+    
+}
+
+.nav--menu > li > a:active {
+    background-color: #333;
+    color: white;
+}
+
+
+.home--imgcontainer {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.home--img {
+    border-radius: 50%;
+    width: 18%;
+    height: 20%;
+}
+
+.bio {
+    text-align: center;
+    margin: 3% 13%;
+}
+
+.bio > p {
+    line-height: 1.7;
+    margin-top: 3%;
+}
+
+.bio > p > a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer > a > i {
+    color: #333;
+}
+
+.fa-github:hover {
+    color: #6e5494;
+}
+
+.fa-linkedin:hover {
+    color: #0072b1;
+}
+
+.fa-envelope:hover {
+    color: #5C4033;
+}
+
+.fa-youtube:hover {
+    color: #FF0000
+}
+
+
+.work {
+    font-family: "Inter", sans-serif;
+}
+
+.work--head, .projects--head {
+    width: 100%;
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0.5em;
+    padding-top: 1.2em;
+    font-weight: normal;
+}
+
+.cards {
+    text-align: center;
+    margin: 2em;
+    
+}
+
+.card {
+    margin: 3% 25%;
+    display: flex;
+    max-width: 650px;
+    max-height: 200px;
+    margin-bottom: 50px;
+}
+
+.card > img {
+    max-height: 200px;
+    max-width: auto;
+}
+
+.card--header {
+    display: flex;
+    align-items: center;
+}
+
+.card--links > a {
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+}
+
+.card--links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+
+.seemore:hover {
+    border-bottom: 2px solid #333;
+    border-radius: 2px;
+    text-decoration: none; 
+    
+}
+
+.card--header > a:active {
+    background-color: #333;
+    color: white;
+}
+
+.card--info {
+    text-align: left;
+    padding-left: 1em;
+    padding-top: .75em;
+    margin-left: 7px;
+    padding-bottom: .75em;
+    width: 100%;
+    background-color: #EEF5F7;
+    border-radius: 10%;
+    overflow: scroll;
+
+}
+
+.card--info > h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card--info > h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.card--info > p > li {
+    list-style-type: disc;
+    list-style-position: outside;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+
+
+
+
+
