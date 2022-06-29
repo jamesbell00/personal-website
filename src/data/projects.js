@@ -42,7 +42,10 @@ const projects = [
         team: "James Bell, Negin Jahanbakhsh, Nada Saadi, Fidel Paredes",
         report: "lancing.pdf",
         github: "https://github.com/fideviva/Lancing",
-        description: `Add Lancing description`,
+        description: `Currently building an application with a team of peers that serves as our senior capstone project. 
+                    Lancing is targeted towards tech freelancers and companies searching for top talent. 
+                    Freelancers are matched with projects using a compatibility algorithm guaranteeing companies only receive applications from top talent. 
+                    My role focuses primarily on the backend using NodeJS as well as designing and implementing the MySQL database.`,
         stack: `Node.js, React Native, MySQL`
     }
 ]

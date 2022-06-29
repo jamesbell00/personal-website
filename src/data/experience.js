@@ -36,6 +36,7 @@ const exp = [
         endDate: "Present",
         description: `Performed SQL queries with Python from the relational database to create reporting dashboards used by account managers and clients improving the reporting user interface for our products.
                         Maintained data loader APIs
+                        Tools Used: SQL, Python, React, PHP, Sisense, Google & Facebook Ads
                         Managed Google Analytics and Google Tag Manager accounts for clients.`  
     }
 ]
