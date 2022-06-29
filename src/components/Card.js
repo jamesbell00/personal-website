@@ -10,6 +10,7 @@ export default function Card(props) {
             </p>
         )
     })
+
     return (
         <div className="card">
             {props.logo && <img src={require(`../images/${props.logo}`)} alt="logo"/>}
@@ -20,6 +21,11 @@ export default function Card(props) {
                     <div className="card--links">
                     {props.url && 
                         <a className='seemore' href={props.url} target={"_blank"} rel="noreferrer">see more</a>}
+                    {props.report &&
+                        <a href={require(`../data/${props.report}`)} download>
+                            <i typeof="download" className="fa fa-2x fa-download fa-fw" />
+                        </a>
+                    }
                     {props.youtube && 
                         <a href={props.youtube} target={"_blank"} rel="noreferrer">
                             <i typeof="youtube" className="fa fa-2x fa-youtube fa-fw" />

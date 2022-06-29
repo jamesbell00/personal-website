@@ -120,6 +120,10 @@ nav {
     color: #FF0000
 }
 
+.fa-download:hover {
+    color: darkseagreen;
+}
+
 
 .work {
     font-family: "Inter", sans-serif;

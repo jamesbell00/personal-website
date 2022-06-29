@@ -17,7 +17,7 @@ const projects = [
         title: "Word Search Game",
         date: "Spring 2021",
         team: "James Bell, Daniel Montes",
-        report: "textbook-manager-system.pdf",
+        report: "word-search-game.pdf",
         youtube: "https://www.youtube.com/watch?v=fKtJ9MVUwj8&feature=youtu.be&ab_channel=jamesb101100",
         github: "https://github.com/jamesbell00/word-search-game",
         description: `Designed using Java Swing, this game consists of a dynamic structure with multiple levels of increasing difficulty. 
@@ -29,7 +29,6 @@ const projects = [
         title: "This Website",
         date: "Summer 2022",
         team: "Solo",
-        report: "textbook-manager-system.pdf",
         github: "https://github.com/jamesbell00/personal-website",
         description: `This 3 page site was a short personal project built in React & CSS. 
                         Although the basic site is done, as long as I keep learning front end development, this site will always be a place I can put my newly learned skills to practice. Feel free to look around and reach out to me!`,
@@ -41,7 +40,7 @@ const projects = [
         startDate: "Fall 2021",
         endDate: "Spring 2022",
         team: "James Bell, Negin Jahanbakhsh, Nada Saadi, Fidel Paredes",
-        report: "textbook-manager-system.pdf",
+        report: "lancing.pdf",
         github: "https://github.com/fideviva/Lancing",
         description: `Add Lancing description`,
         stack: `Node.js, React Native, MySQL`
