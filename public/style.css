@@ -211,9 +211,10 @@ nav {
 }
 
 .card--info > p > li {
+    font-size: 15px;
     list-style-type: disc;
-    list-style-position: outside;
-    text-indent: -1em;
+    list-style-position:outside;
+    text-indent: -1.35em;
     padding-left: 1em;
 }
 

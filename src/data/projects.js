@@ -31,7 +31,8 @@ const projects = [
         team: "Solo",
         report: "textbook-manager-system.pdf",
         github: "https://github.com/jamesbell00/personal-website",
-        description: `Add website description`,
+        description: `This 3 page site was a short personal project built in React & CSS. 
+                        Although the basic site is done, as long as I keep learning front end development, this site will always be a place I can put my newly learned skills to practice. Feel free to look around and reach out to me!`,
         stack: `React, HTML, CSS`
     },
     {
