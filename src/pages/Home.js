@@ -1,12 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../images/james.png'
 
 const Home = () =>{
+
+  const [rotate, setRotate] = useState(true)
+
   return (
     <main className='home--main'>
         <div className='home--imgcontainer'>
-          <img className='home--img' src={logo} alt="profile"/>
-        </div>
+          <img 
+            src={logo} 
+            alt="profile"
+            className={rotate ? "home--img--rotate" : "home--img"}
+          />
+          </div>
 
         <div className='bio'>
           <h2>
@@ -25,7 +32,7 @@ const Home = () =>{
             surfing, and triathlons. I also like to cook, or at least try to.<br>
             </br>
             Fun fact: I was born in Spain, and grew up in the US with a British father, so I am completely
-            bilingual and I have all 3 passports!
+            bilingual and I have all 3 passports! ✈️
 
           </p>
         </div>

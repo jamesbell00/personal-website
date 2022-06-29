@@ -79,6 +79,23 @@ nav {
     height: 20%;
 }
 
+.home--img--rotate {
+    border-radius: 50%;
+    width: 18%;
+    height: 20%;
+    animation: rotate-keyframes 3s;
+}
+
+@keyframes rotate-keyframes {
+    from {
+     transform: rotateY(0deg);
+    }
+   
+    to {
+     transform: rotateY(1080deg);
+    }
+}
+
 .bio {
     text-align: center;
     margin: 3% 13%;
