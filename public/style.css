@@ -155,18 +155,33 @@ nav {
     font-weight: normal;
 }
 
-.cards {
+.cards, .projects {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
     margin: 2em;
+    justify-content: center;
     
 }
 
 .card {
-    margin: 3% 25%;
+    margin: 3% 12%;
     display: flex;
     max-width: 650px;
     max-height: 200px;
     margin-bottom: 50px;
+    /* border: 2px solid green; */
+}
+
+@media screen and (max-width: 850px) {
+    .card {
+      flex-wrap: wrap;
+      width: fit-content;
+      height: fit-content;
+      max-height: none;
+      /* border: 2px solid green; */
+      justify-content: center;
+    }
 }
 
 .card > img {
@@ -183,6 +198,13 @@ nav {
     text-decoration: none;
     color: #333;
     border: 2px solid transparent;
+}
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    .card--links > a {
+      font-size: 12px;
+    }
 }
 
 .card--links {
@@ -215,6 +237,7 @@ nav {
     background-color: #EEF5F7;
     border-radius: 10%;
     overflow: scroll;
+    /* min-width: 250px; */
 
 }
 

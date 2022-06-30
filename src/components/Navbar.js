@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav>
                 <h2 className="nav--title">
-                    jamesbell.com
+                    jamessebastianbell.com
                 </h2>
             
             <ul className='nav--menu'>
