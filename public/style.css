@@ -24,6 +24,7 @@ nav {
     color: #333;
     font-weight: 600;
     margin-right: auto;
+    z-index: 10;
 }
 
 .nav--menu {
@@ -46,7 +47,7 @@ nav {
     border: 3px solid transparent;
 }
 
-.nav--menu > li > a:hover {
+.nav--menu > li > a:hover, .hamburger--item > a:hover {
     border-bottom: 2px solid #333;
     border-radius: 2px;
     text-decoration: none; 
@@ -62,6 +63,66 @@ nav {
     background-color: #333;
     color: white;
     border-bottom: 2px solid transparent;
+}
+
+nav > button {
+    position: relative;
+    margin-left: auto;
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;;
+    border: none;
+}
+
+.menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: #EEF5F7;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 310px;
+    z-index: 9;
+}
+
+.menuNav.showMenu {
+    width: 100%;
+}
+
+.menuNav li:first-child {
+    margin-top: 7rem;
+}
+
+.hamburger--item {
+    width: fit-content;
+}
+
+
+.hamburger--item > a {
+    display: block;
+    margin: 15px 40px;
+    text-decoration: dashed;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+@media screen and (min-width: 849px) {
+    nav > button {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .nav--menu {
+        display: none;
+    }
 }
 
 

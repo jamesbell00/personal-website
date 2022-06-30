@@ -31,8 +31,7 @@ const Home = () =>{
             I have too many passions to list them all but my main ones include playing basketball, <em>watching</em> basketball (go Warriors!),
             surfing, and triathlons. I also like to cook, or at least try to.<br>
             </br>
-            Fun fact: I was born in Spain, and grew up in the US with a British father, so I am completely
-            bilingual and I have all 3 passports! ✈️
+            Fun fact: I have 3 passports: USA, UK, and Spain! ✈️
 
           </p>
         </div>
