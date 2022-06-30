@@ -220,7 +220,7 @@ nav > button {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 2em;
+    margin: 2em 1.5em;
     justify-content: center;
     
 }
@@ -260,13 +260,7 @@ nav > button {
     color: #333;
     border: 2px solid transparent;
 }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 800px) {
-    .card--links > a {
-      font-size: 12px;
-    }
-}
+
 
 .card--links {
     display: flex;
