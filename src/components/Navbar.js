@@ -28,11 +28,14 @@ export default function Navbar() {
                 <li>
                     <Link to="/projects">Projects</Link>
                 </li>
+                <li>
+                    <a href={require(`../data/jamesbell-cv.pdf`)} download>
+                                CV
+                    </a>
+                </li>
             </ul>
             
-            {/* <li>
-                <Link to="/cv">CV</Link>
-            </li> */}
+            
 
             <button onClick={handleToggle}>
             {navbarOpen ? (
@@ -62,6 +65,11 @@ export default function Navbar() {
                         onClick={() => closeMenu()}>
                             Projects
                     </Link>
+                </li>
+                <li className='hamburger--item'>
+                    <a href={require(`../data/jamesbell-cv.pdf`)} download>
+                                CV
+                    </a>
                 </li>
             </ul>
             
