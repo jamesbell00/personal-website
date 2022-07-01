@@ -21,7 +21,7 @@ const Home = () =>{
           </h2>
           <p>
             First of all, I'm glad you made it. You're one of the few lucky people who will actually read
-            this. I'm a senior at SLU Madrid (see <a href='/work'>work</a>) studying Computer Science with
+            this. I'm a senior at SLU Madrid studying Computer Science with
             a minor in Math. This past year I've worked on multiple projects which have taught me new tools
             such as <strong>React, Node.js</strong> and a strong proficiency in <strong>MySQL</strong> as well 
             as other invaluable skills like working with a team and time management & prioritization. Currently, 

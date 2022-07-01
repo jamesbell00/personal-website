@@ -222,7 +222,6 @@ nav > button {
     flex-wrap: wrap;
     margin: 2em 1.5em;
     justify-content: center;
-    
 }
 
 .card {
@@ -231,7 +230,6 @@ nav > button {
     max-width: 650px;
     max-height: 200px;
     margin-bottom: 50px;
-    /* border: 2px solid green; */
 }
 
 @media screen and (max-width: 850px) {
@@ -240,10 +238,10 @@ nav > button {
       width: fit-content;
       height: fit-content;
       max-height: none;
-      /* border: 2px solid green; */
       justify-content: center;
     }
 }
+
 
 .card > img {
     max-height: 200px;

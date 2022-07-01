@@ -14,7 +14,7 @@ const exp = [
     {
         id: 2,
         // logo: "",
-        title: "Co-Founder",
+        title: "Co-Founder - Go2Guys",
         url: "https://napago2guys.com/",
         location: "Go2Guys",
         city: "Napa",
@@ -27,7 +27,7 @@ const exp = [
     {
         id: 3,
         logo: "demandlocal.jpg",
-        title: "Data Analyst",
+        title: "Data Analyst - Demand Local",
         url: "https://www.demandlocal.com/",
         location: "Demand Local",
         city: "San Francisco",
