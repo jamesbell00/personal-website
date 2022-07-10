@@ -25,8 +25,8 @@ const Home = () =>{
             a minor in Math. This past year I've worked on multiple projects which have taught me new tools
             such as <strong>React, Node.js</strong> and a strong proficiency in <strong>MySQL</strong> as well 
             as other invaluable skills like working with a team and time management & prioritization. Currently, 
-            I'm working as a Data Analyst at Demand Local using <strong>SQL</strong> & <strong>Python</strong> for
-            reporting dashboards for clients and maintaining the data loader APIs in <strong>PHP</strong>.<br>
+            I'm working as a Data Analyst/Junior Developer at Demand Local using <strong>SQL</strong> & <strong>Python</strong> for
+            reporting dashboards for clients and maintaining the CRUD scripts and data loader APIs in <strong>PHP</strong>.<br>
             </br>
             I have too many passions to list them all but my main ones include playing basketball, <em>watching</em> basketball (go Warriors!),
             surfing, and triathlons. I also like to cook, or at least try to.<br>

@@ -13,7 +13,6 @@ const exp = [
     },
     {
         id: 2,
-        // logo: "",
         title: "Co-Founder - Go2Guys",
         url: "https://napago2guys.com/",
         location: "Go2Guys",
