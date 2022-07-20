@@ -8,12 +8,29 @@ const Home = () =>{
   return (
     <main className='home--main'>
         <div className='home--imgcontainer'>
+
+          <ul className='home--locations'>
+            <li>
+                <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
+                <p>San Francisco, California</p>
+            </li>
+            <li>
+              <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
+              <p>Madrid, Spain</p>
+            </li>
+            <li>
+              <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
+              <p>London, England</p>
+            </li>
+
+          </ul>
+
           <img 
             src={logo} 
             alt="profile"
             className={rotate ? "home--img--rotate" : "home--img"}
           />
-          </div>
+        </div>
 
         <div className='bio'>
           <h2>

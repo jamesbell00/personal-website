@@ -131,8 +131,23 @@ nav > button {
     text-align: center;
     width: 100%;
     padding: 20px;
-    
 }
+
+.home--locations {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    align-content: center;
+    color: #9C9B9B;
+}
+
+.home--locations > li {
+    display: flex;
+    margin: 0 4%;
+    align-items: center;    
+}
+
 
 .home--img {
     border-radius: 50%;
