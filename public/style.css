@@ -239,7 +239,7 @@ nav > button {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 2em 1.5em;
+    margin: 2em 0;
     justify-content: center;
 }
 

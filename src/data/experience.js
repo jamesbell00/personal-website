@@ -9,7 +9,7 @@ const exp = [
         country: "Spain",
         startDate: "Jan 2019",
         endDate: "Dec 2022",
-        description: "GPA: 3.96\nDean's List for 7 semesters\nActivities: Campus Ambassador, BocaTalk, Math & English Tutor"  
+        description: "Computer Science with minor in Mathematics\nGPA: 3.96\nDean's List for 7 semesters\nActivities: Campus Ambassador, BocaTalk, Math & English Tutor"  
     },
     {
         id: 2,
