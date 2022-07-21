@@ -123,6 +123,10 @@ nav > button {
     .nav--menu {
         display: none;
     }
+
+    .hidden {
+        display: none;
+    }
 }
 
 

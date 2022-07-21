@@ -12,15 +12,15 @@ const Home = () =>{
           <ul className='home--locations'>
             <li>
                 <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
-                <p>San Francisco, California</p>
+                <p>San Francisco</p><p className='hidden'>, California</p>
             </li>
             <li>
               <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
-              <p>Madrid, Spain</p>
+              <p>Madrid</p><p className='hidden'>, Spain</p>
             </li>
             <li>
               <i typeof="icon" className="fa fa-1.5x fa-map-pin fa-fw" />
-              <p>London, England</p>
+              <p>London</p><p className='hidden'>, England</p>
             </li>
 
           </ul>
