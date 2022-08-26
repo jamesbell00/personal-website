@@ -33,8 +33,8 @@ const exp = [
         country: "USA",
         startDate: "Mar 2021",
         endDate: "Present",
-        description: `Performed SQL queries with Python from the relational database to create reporting dashboards used by account managers and clients improving the reporting user interface for our products.
-                        Maintained APIs and CRUD scripts
+        description: `Used SQL and Python to design and create reporting dashboards used by over 100 clients.
+                        Advocated for and implemented reusable SQL snippets increasing query runtime performance by at least 2x and reducing debug time by 50%.
                         Tools Used: SQL, Python, React, PHP, Sisense, Google & Facebook Ads`  
     }
 ]
