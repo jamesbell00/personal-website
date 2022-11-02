@@ -13,7 +13,7 @@ const exp = [
     },
     {
         id: 2,
-        title: "Co-Founder - Go2Guys",
+        title: "Founder - Go2Guys",
         url: "https://napago2guys.com/",
         location: "Go2Guys",
         city: "Napa",
@@ -25,6 +25,20 @@ const exp = [
     },
     {
         id: 3,
+        logo: "deloitte.jpg",
+        title: "Quant Analyst Intern",
+        url: "https://www.deloitte.com/",
+        location: "Deloitte",
+        city: "Madrid",
+        country: "Spain",
+        startDate: "Sep 2022",
+        endDate: "Dec 2022",
+        description: `Worked in design of procedures and implementation of models in the face of regulatory & market changes
+                        Application and implementation of new accounting and financial reporting standards
+                        Automated the calculation of various accounting variables reducing computation latency`  
+    },
+    {
+        id: 4,
         logo: "demandlocal.jpg",
         title: "Data Analyst",
         url: "https://www.demandlocal.com/",

@@ -246,9 +246,10 @@ nav > button {
 .card {
     margin: 3% 12%;
     display: flex;
-    max-width: 650px;
+    max-width: 750px;
     max-height: 200px;
     margin-bottom: 50px;
+    /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 850px) {
@@ -264,7 +265,7 @@ nav > button {
 
 .card > img {
     max-height: 200px;
-    max-width: auto;
+    max-width: 250px;
 }
 
 .card--header {
