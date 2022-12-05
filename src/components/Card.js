@@ -2,14 +2,7 @@ import React from "react";
 
 export default function Card(props) {
 
-    let formattedDesc = props.description.split('\n').map(i => {
-        
-        return (
-            <p>
-                <li>{i}</li>
-            </p>
-        )
-    })
+    let formattedDesc = props.description.split('\n').map(i => <li>{i}</li>)
 
     return (
         <div className="card">
